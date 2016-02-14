@@ -1,3 +1,9 @@
+Why the fork
+============
+
+The generated reports are uploaded to Visual Studio Team Services, however in the VSTS Test Result list, only the test names are shown, the suite and classnames are dropped.
+To make the tests distinguishable there, it was necessary to include the name of all parents in the name of the tests.
+
 Mocha Jenkins Reporter
 ======================
 
